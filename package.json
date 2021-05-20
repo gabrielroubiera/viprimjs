@@ -1,8 +1,8 @@
 {
-  "name": "viprim",
+  "name": "viprimjs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "viprim.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
