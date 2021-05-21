@@ -1,10 +1,10 @@
 const validateField = require('./validateFields');
 
-let fields = [];
-let field = {}
-let erromsg = [];
-
 function validateFields(campos){
+    
+    let fields = [];
+    let field = {}
+    let erromsg = [];
     let camposArray = campos;
 
     for(let i = 0; i < camposArray.length; i++){
