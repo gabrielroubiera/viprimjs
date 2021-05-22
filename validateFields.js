@@ -1,10 +1,10 @@
 const validate = require('./validate');
 
-let erromsg = [];
-let errors = [];
-let lengthNumber = 0;
 
 function validateField(fieldName, campo, validaciones = []){
+    let erromsg = [];
+    let errors = [];
+    let lengthNumber = 0;
     for(let i = 0; i < validaciones.length; i++){
         
         if (validaciones[i].indexOf(':') == -1){
